@@ -1,0 +1,133 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F1FAEE;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    width: 720px;
+    height: 343px;
+    background-image: url("images/chisinau.jpg");
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title {
+    background: #1D3557;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+.info {
+    background: #457B9D;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+    line-height: 21.50px;
+    width: 355px;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+.activities {
+    width: 720px;
+    margin: 25px 0;
+    color: #1D3557;
+}
+.section-img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.sections {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 198px;
+}
+
+.section h3 {
+    margin: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.section p {
+    margin: 0;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.guide-section {
+    width: 720px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    padding: 13px 23px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    width: 400px;
+    height: 294px;
+    
+}
+
+.card-info {
+    color: #1D3557;
+}
+.card-info-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.card-info-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    font-style: italic;
+}
+.card-img{
+    width: 180px;
+    border-radius: 10px;
+    
+}
